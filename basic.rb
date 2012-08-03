@@ -1,3 +1,5 @@
+ENV['REPO'] = `git remote -v show | cut -f 2`
+
 def foo(num)
   bar(num)
 end

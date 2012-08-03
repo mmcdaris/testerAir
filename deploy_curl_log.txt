@@ -1,0 +1,45 @@
+== Info: About to connect() to airbrake.io port 80 (#0)
+== Info:   Trying 75.101.128.85... == Info: connected
+== Info: Connected to airbrake.io (75.101.128.85) port 80 (#0)
+=> Send header, 222 bytes (0xde)
+0000: POST /deploys HTTP/1.1
+0018: User-Agent: curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.2
+0058: 1.4 OpenSSL/0.9.8r zlib/1.2.5
+0077: Host: airbrake.io
+008a: Accept: */*
+0097: Content-Length: 69
+00ab: Content-Type: application/x-www-form-urlencoded
+00dc: 
+=> Send data, 69 bytes (0x45)
+0000: api_key=22bfa60c53b69000a5994387bc037684&deploy[rails_env]=Produ
+0040: ction
+<= Recv header, 24 bytes (0x18)
+0000: HTTP/1.1 403 Forbidden
+<= Recv header, 25 bytes (0x19)
+0000: Cache-Control: no-cache
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 45 bytes (0x2d)
+0000: Server: thin 1.3.1 codename Triple Espresso
+<= Recv header, 157 bytes (0x9d)
+0000: Set-Cookie: _hoptoad_memcache_rails3_session=32f8334090a3e087453
+0040: e9915de79d299; domain=.airbrake.io; path=/; expires=Mon, 11-Jun-
+0080: 2012 05:29:56 GMT; HttpOnly
+<= Recv header, 21 bytes (0x15)
+0000: X-Runtime: 0.227160
+<= Recv header, 35 bytes (0x23)
+0000: X-Ua-Compatible: IE=Edge,chrome=1
+<= Recv header, 28 bytes (0x1c)
+0000: transfer-encoding: chunked
+<= Recv header, 19 bytes (0x13)
+0000: Connection: Close
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 147 bytes (0x93)
+0000: 88
+0004: Your account doesn't support deploys. Please upgrade to a paid a
+0044: ccount to make use of this feature. http://airbrake.io/account/p
+0084: lan/edit
+008e: 0
+0091: 
+== Info: Closing connection #0

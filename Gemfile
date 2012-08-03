@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'capistrano'
 gem 'wirble'
 gem 'rails', '3.2.3'
+
+
 gem "airbrake"
 #gem "airbrake", :git => "git://github.com/airbrake/airbrake.git"
 
