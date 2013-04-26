@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'capistrano'
+gem 'capistrano', '2.14.2'
 gem 'wirble'
-gem 'rails', '3.2.3'
-
-
-gem "airbrake"
+gem 'rails', '3.2.13'
+gem 'redis'
+gem 'sass'
+gem 'rb-fsevent', '~> 0.9.1'
+gem "airbrake", "~>3.1.11"
 #gem "airbrake", :git => "git://github.com/airbrake/airbrake.git"
 
 # Bundle edge Rails instead:
@@ -35,7 +36,7 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
