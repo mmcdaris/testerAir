@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'capistrano', '2.14.2'
 gem 'wirble'
-gem 'rails', '3.2.13'
+gem 'rails', '3.2.17'
 gem 'redis'
 gem 'sass'
 gem 'rb-fsevent', '~> 0.9.1'
